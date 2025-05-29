@@ -1,0 +1,14 @@
+import pandas as pd
+
+# Load data from CSV
+data = pd.read_csv("inventory.csv")
+
+# Find items with stock < 10
+low_stock = data[data["stock"] < 10]
+
+# Save results to a new CSV
+low_stock.to_csv("low_stock_alert.csv")
+
+# Print results to screen
+print("Items to reorder:")
+print(low_stock)

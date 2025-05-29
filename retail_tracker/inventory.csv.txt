@@ -1,0 +1,8 @@
+item,price,stock
+Rice,500,15
+Oil,1200,8
+Flour,300,25
+Sugar,400,5
+Biscuits,500,4
+Drinks,2000,4
+Sweets,100,5
